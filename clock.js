@@ -61,8 +61,8 @@ function drawHelper(ctx) {
     ctx.strokeStyle = "red";
     let time = new Date(Date.now());
     let seconds = time.getSeconds() + time.getMilliseconds()/1000;
-    let minutes = time.getMinutes();
-    let hours = time.getHours();
+    let minutes = time.getMinutes() + seconds/60;
+    let hours = time.getHours() + minutes/60;
 
     // draw second hand
     ctx.lineWidth = 1;
