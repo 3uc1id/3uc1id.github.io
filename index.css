@@ -23,7 +23,7 @@ body {
 
 #main-body {
     position: fixed;
-    margin-left: calc(25% + 1em);
+    margin-left: 25%;
     margin-right: 25%;
     margin-top: 6em;
     width: 50%;
