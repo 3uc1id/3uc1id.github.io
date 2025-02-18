@@ -1,6 +1,33 @@
+@font-face {
+    font-family: "LDF Comic Sans";
+    src: url("Ldfcomicsans-jj7l.ttf");
+}
+
 body {
-    font-family: "Comic Sans", sans-serif;
-    background-color: blue;
+    font-family: "LDF Comic Sans", sans-serif;
+    background-color: grey;
     text-align: center;
+    min-height: 100%;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 50%;
+    height: 2em;
+    padding-top: 0.75em;
+    top: 1em;
+    left: 25%;
+    border: groove 1em black;
+    border-radius: 1em;
+}
+
+#main-body {
+    position: fixed;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 6em;
+    width: 50%;
+    height: calc(100vh - 8em);
+    background-color: aquamarine;
 }
 
