@@ -1,9 +1,9 @@
 const TAU = 6.283185307179586;
 const QTAU = TAU/4.0;
 // const TICK = 100; // ms per frame
-const RADIUS = 100; // radius of clock circle
-const WIDTH = 250; // canvas width
-const HEIGHT = 250; // canvas height
+const RADIUS = 250; // radius of clock circle
+const WIDTH = 550; // canvas width
+const HEIGHT = 550; // canvas height
 const BIG_STEP = TAU / 12;
 const SMALL_STEP = TAU / 60;
 const HH = HEIGHT / 2;
