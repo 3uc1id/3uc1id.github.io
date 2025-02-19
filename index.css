@@ -26,7 +26,7 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 6em;
-    width: 50%;
+    width: max(550px, 50vw);
     height: calc(100vh - 8em);
     background-color: aquamarine;
 }
